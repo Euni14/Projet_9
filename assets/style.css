@@ -90,9 +90,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -122,7 +119,7 @@ body {
 .gallery-item {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 440px !important;
 	object-fit: cover;
 	padding: .5em;
 }
@@ -320,6 +317,11 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+	.gallery-item {
+		max-width: 440px;
+		height: 440px;
+		
+	}
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
