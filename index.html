@@ -93,6 +93,8 @@
                 srcset="
                   ./assets/images/slider/mobile/nicholas-green-nPz8akkUmDI-unsplash.webp
                 "
+                width="480"
+                height="222"
                 media="(max-width: 480px)"
               />
               <img
@@ -100,6 +102,7 @@
                 class="d-block w-100"
                 alt="Foule en fête"
                 width="1920"
+                height="auto"
               />
             </picture>
           </div>
@@ -160,12 +163,20 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img
-          src="./assets/images/nina.webp"
-          width="278"
-          height="550"
-          alt="Portrait d'une femme"
-        />
+        <picture>
+          <source
+            srcset="./assets/images/nina_mobile.webp"
+            width="150"
+            height="150"
+            media="(max-width: 480px)"
+          />
+          <img
+            src="./assets/images/nina.webp"
+            width="467"
+            height="465"
+            alt="Portrait d'une femme"
+          />
+        </picture>
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
