@@ -10,7 +10,7 @@
     />
     <meta
       name="description"
-      content="Nina Carducci photographe évènementielle shooting photo photographie mariage portrait mode matérnité bébé"
+      content="Nina Carducci photographe évènementielle shooting photo photographie mariage portrait mode maternité bébé"
     />
 
     <!-- Open Graph / Facebook -->
@@ -428,25 +428,37 @@
     <script src="./assets/scripts.js" async defer></script>
     <script type="application/ld+json">
       {
-        "@context": "http://schema.org",
-        "@type": "Person",
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "image": [
+          "https://euni14.github.io/Projet_9/assets/images/social_media/nina.jpg"
+        ],
+        "name": "Photographe professionnelle à Bordeaux - Nina Carducci",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
           "addressLocality": "Bordeaux, France",
-          "addressRegion": " Nouvelle-Aquitaine",
-          "postalCode": " 33200",
-          "streetAddress": "68 avenue Alsace-Lorraine"
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "FR"
         },
-        "colleague": [
-          "http://www.xyz.edu/students/alicejones.html",
-          "http://www.xyz.edu/students/bobsmith.html"
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "48.862725",
+          "longitude": "2.287592"
+        },
+        "url": "https://ninacarducci.github.io/",
+        "telephone": "0556677889",
+        "priceRange": "350€-400€",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
         ],
-        "email": "mailto:n.carducci@nina-carducci.com",
-        "image": "nina.jpg",
-        "jobTitle": "Photographe portraits & événementiel",
-        "name": "Nina Carducci",
-        "telephone": "05 56 67 78 89",
-        "url": "https://ninacarducci.github.io/"
+        "acceptsReservations": "True"
       }
     </script>
   </body>
